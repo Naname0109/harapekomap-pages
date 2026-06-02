@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>はらぺこマップ - お気に入りのお店をタグで整理</title>
+  <meta name="description" content="お気に入りの飲食店をタグで整理して、マップで一覧。おすすめリストはURL1つで友達にシェア。">
+  <meta name="theme-color" content="#FF6B35">
+  <link rel="icon" href="favicon.png">
+  <style>
+    :root { --primary: #FF6B35; --ink: #1A1A1A; --bg: #FFFCF9; --muted: #6E665F; }
+    * { box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Hiragino Sans", "Yu Gothic", sans-serif; color: var(--ink); background: var(--bg); margin: 0; line-height: 1.7; }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 32px 24px 64px; }
+    header { text-align: center; padding: 48px 0 24px; }
+    .icon { display: inline-block; width: 88px; height: 88px; background: var(--primary); border-radius: 22px; line-height: 88px; font-size: 44px; color: white; }
+    h1 { font-size: 28px; font-weight: 700; margin: 16px 0 8px; }
+    .tagline { color: var(--muted); margin: 0 0 32px; }
+    .cta { display: inline-block; background: var(--primary); color: white; padding: 12px 24px; border-radius: 12px; text-decoration: none; font-weight: 700; margin: 16px 8px; }
+    .cta.secondary { background: transparent; color: var(--primary); border: 2px solid var(--primary); }
+    section { background: white; border-radius: 16px; padding: 24px; margin: 16px 0; box-shadow: 0 1px 3px rgba(0,0,0,.04); border: 1px solid rgba(0,0,0,.06); }
+    h2 { font-size: 18px; margin: 0 0 12px; }
+    ul { padding-left: 20px; }
+    footer { text-align: center; color: var(--muted); font-size: 13px; padding: 32px 0; }
+    footer a { color: var(--muted); margin: 0 8px; }
+    @media (prefers-color-scheme: dark) {
+      :root { --ink: #E0E0E0; --bg: #121212; --muted: #999; }
+      section { background: #1E1E1E; border-color: rgba(255,255,255,.06); }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="icon">🍽</div>
+      <h1>はらぺこマップ</h1>
+      <p class="tagline">お気に入りの飲食店をタグで整理する、あなただけのグルメ地図。</p>
+      <a class="cta" href="https://apps.apple.com/app/idTBA">App Store で入手</a>
+    </header>
+
+    <section>
+      <h2>主な機能</h2>
+      <ul>
+        <li>タグで自由に整理（ジャンル・エリア・最寄り駅・施設条件・シーン）</li>
+        <li>AND / OR 検索で「渋谷 × イタリアン × デート」も一発</li>
+        <li>登録したお店を地図上にカラーピンで一覧</li>
+        <li>おすすめのリストを URL 1つで友達にシェア</li>
+        <li>完全オフライン対応（登録・検索はネット不要）</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>料金</h2>
+      <p>無料: 30件まで登録 / カスタムタグ5個 / 月3回シェア / 1枚/店の写真</p>
+      <p>プレミアム: 無制限登録 / 無制限タグ・シェア / 5枚/店 / 広告なし / CSVエクスポート</p>
+      <p style="color:var(--muted); font-size:13px;">月額 ¥480 / 年額 ¥3,600 (38%おトク) ・ 7日間無料トライアル</p>
+    </section>
+
+    <footer>
+      <a href="privacy.html">プライバシーポリシー</a>
+      ・
+      <a href="terms.html">利用規約</a>
+      <p>© 2026 Masahiro Akebi</p>
+    </footer>
+  </div>
+</body>
+</html>
